@@ -1,0 +1,233 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,400,500,600,700,800,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+}
+
+body {
+    padding-top: 20px;
+}
+
+.carousel {
+  width: 100%;
+}
+
+.slide-box {
+  display: flex;
+  justify-content: space-between;
+}
+
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .slide-box img {
+    -ms-flex: 0 0 50%;
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .slide-box img {
+    -ms-flex: 0 0 33.3333%;
+    flex: 0 0 33.3333%;
+    max-width: 33.3333%;
+  }
+}
+
+@media (min-width: 992px)
+{
+  .slide-box img {
+    -ms-flex: 0 0 25%;
+    flex: 0 0 25%;
+    max-width: 25%;
+  }
+}
+
+.carousel-caption {
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 20px;
+  border-radius: .5rem;
+}
+
+/* Navbar(Minh) */
+.navbar-brand {
+    font-size: 24px;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+.navbar-m {
+    background: #9AFEFF !important;
+}
+.navbar .container {
+    display: flex;
+}
+.navbar .container .navbar-brand {
+    flex: auto;
+}
+.navbar .container .navbar-collapse ul li {
+    margin-left: 20px;
+}
+.navbar .container .navbar-collapse ul li a {
+    
+    font-weight: bold;
+}
+.navbar .container .navbar-collapse .navbar-nav .nav-item .color-navbar-m{
+    font-size: 20px;
+    color: rgb(8, 2, 2) !important;
+    transition: 0.5s;
+}
+.navbar .container .navbar-collapse .navbar-nav .nav-item .color-navbar-m:hover {
+    color: rgb(255, 22, 22) !important;
+}
+.images-m {
+    width: 100%;
+    height: 800px;
+}
+
+
+/* fooder(Minh) */
+.top-m {
+    margin-top:40px
+}
+.top-m .row .col-md-6 .text-m {
+    font-size: 23px;
+    font-weight: bold;
+    margin-bottom: 16px;
+}
+.top-m .row .col-md-6 .textbold-m {
+    color:#000;
+}
+.top-m .row .col-md-6 .icon-m .fa-m {
+    /* font-family: 'Poppins'; */
+    margin-top: 20px;
+    margin-right: 50px;
+    font-size: 30px;
+}
+.fa-mt {
+    text-align: center;
+    color:red;
+    font-size: 40px;
+}
+.col-center-m {
+    margin-top: 19px;
+    text-align: center;
+}
+.card-m {
+    border: none;
+}
+.adress-m {
+    margin-top: 20px;
+}
+.text-m-1 {
+    font-size: 30px;
+}
+.email-m {
+    margin: 0 !important;
+}
+.form-m {
+    height: 150px;
+    margin-top: 20px;
+}
+.btn-m {
+    height: 45px;
+    margin-top:20px
+}
+.container-fluid-m {
+    margin-top: 50px;
+    background: #000;
+    height: 50px;
+}
+.container-mm {
+    /* font-weight: bold; */
+    text-align: center;
+    padding-top: 10px;
+    color: #fff;
+}
+.coding-m {
+    color: red;
+    text-decoration: none;
+}
+@media (min-width: 100px) and (max-width: 764px) { 
+    .card-body-m {
+        text-align: center;
+    }
+}
+@media (min-width: 700px) and (max-width: 1500px) { 
+    .images-m {
+        width: 100%;
+        height: 700px;
+    }    
+}
+@media (min-width: 100px) and (max-width: 764px) { 
+    .images-m {
+        width: 100%;
+        height: 500px;
+    }    
+}
+.nice-text{
+    color: #000;
+    font-size: 20px;
+}
+.dam-do {
+    color:rgb(255, 22, 22);
+    /* font-size: 35; */
+    font-weight: bold;
+}
+.clm {
+    background: #1900ff;
+    color: #fff;
+    height: 50px;
+}
+
+.text-color {
+    color: #fff
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:weight@100;200;300;400;500;600;700;800&display=swap");
+
+body {
+    background-color: #fff;
+    font-family: "Poppins", sans-serif;
+    font-weight: 300
+}
+
+@media only screen and (max-width:768px) {
+    .container {
+        margin-top: 66px
+    }
+}
+
+.height {
+    height: 60vh
+}
+.font-weight-normal {
+    font-weight: bold;
+}
+.card {
+    border: none;
+    cursor: pointer;
+    box-shadow: 0 0 40px rgba(51, 51, 51, .1)
+}
+
+.card:hover {
+    background-color: #eee
+}
+
+.ratings i {
+    color: orange
+}
+
+.testimonial-list {
+    list-style: none
+}
+
+.testimonial-list li {
+    margin-bottom: 20px
+}
+
+.testimonials-margin {
+    margin-top: -19px
+}

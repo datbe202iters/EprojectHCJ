@@ -1,0 +1,220 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,400,500,600,700,800,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins',sans-serif;
+}
+body {
+    background: #0a2a43;
+    min-height: 1500px;
+}
+.pro {
+    margin-top: 100px;
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pro::before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 100px;
+    background: linear-gradient(to top, #0a2a43, transparent);
+    z-index: 10000;
+}
+.pro::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: #0a2a43;
+    z-index: 10000;
+    mix-blend-mode: color;
+}
+.pro img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    pointer-events: none;
+}
+#text {
+    position: relative;
+    color: #fff;
+    font-size: 10em;
+    z-index: 1;
+}
+#road {
+    z-index: 2;
+}
+.textzip {
+    font-size: 30px;
+    color: #fff;
+}
+.text-while {
+    color: #fff;
+}
+
+/* Navbar(Minh) */
+.navbar-brand {
+    font-size: 24px;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: 700;
+    letter-spacing: 2px;
+}
+.navbar-m {
+    background: #9AFEFF !important;
+}
+.navbar .container {
+    display: flex;
+}
+.navbar .container .navbar-brand {
+    flex: auto;
+}
+.navbar .container .navbar-collapse ul li {
+    margin-left: 20px;
+}
+.navbar .container .navbar-collapse ul li a {
+    font-weight: bold;
+}
+.navbar .container .navbar-collapse .navbar-nav .nav-item .color-navbar-m{
+    font-size: 20px;
+    color: rgb(8, 2, 2) !important;
+    transition: 0.5s;
+}
+.navbar .container .navbar-collapse .navbar-nav .nav-item .color-navbar-m:hover {
+    color: rgb(255, 22, 22) !important;
+}
+.images-m {
+    width: 100%;
+    height: 800px;
+}
+
+
+/* fooder(Minh) */
+.top-m {
+    margin-top:40px
+}
+.top-m .row .col-md-6 .text-m {
+    font-size: 23px;
+    font-weight: bold;
+    margin-bottom: 16px;
+}
+.top-m .row .col-md-6 .textbold-m {
+    color:#000;
+}
+.top-m .row .col-md-6 .icon-m .fa-m {
+    /* font-family: 'Poppins'; */
+    margin-top: 20px;
+    margin-right: 50px;
+    font-size: 30px;
+}
+.fa-mt {
+    text-align: center;
+    color:red;
+    font-size: 40px;
+}
+.col-center-m {
+    margin-top: 19px;
+    text-align: center;
+}
+.card-m {
+    border: none;
+}
+.adress-m {
+    margin-top: 20px;
+}
+.text-m-1 {
+    font-size: 30px;
+}
+.email-m {
+    margin: 0 !important;
+}
+.form-m {
+    height: 150px;
+    margin-top: 20px;
+}
+.btn-m {
+    height: 45px;
+    margin-top:20px
+}
+.container-fluid-m {
+    margin-top: 50px;
+    background: #000;
+    height: 50px;
+}
+.container-mm {
+    /* font-weight: bold; */
+    text-align: center;
+    padding-top: 10px;
+    color: #fff;
+}
+.coding-m {
+    color: red;
+    text-decoration: none;
+}
+@media (min-width: 100px) and (max-width: 764px) { 
+    .card-body-m {
+        text-align: center;
+    }
+}
+@media (min-width: 700px) and (max-width: 1500px) { 
+    .images-m {
+        width: 100%;
+        height: 700px;
+    }    
+}
+@media (min-width: 100px) and (max-width: 764px) { 
+    .images-m {
+        width: 100%;
+        height: 500px;
+    }    
+}
+.stuff img{
+    width: 100%;
+    height: 100%;
+}
+.text-ab{
+    font-size: 23px;
+    font-weight: bold;
+    margin-bottom: 16px;
+    text-align: center;
+}
+.ab_t{
+    margin-top: 10%;
+}
+.text-ab span{
+    color: #9AFEFF ;
+    font-weight: 700;
+    font-size: 1.5em;
+}
+.intro{
+    font-size: 20px;
+    color: rgb(114, 111, 111);
+}
+.btnn{
+    font-size: 1em;
+    color: #000;
+    background: #9AFEFF;
+    display: inline-block;
+    padding: 10px 30px;
+    margin: 5% 40%;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 2px;
+    transition: 0.5s;
+}
+.btnn:hover{
+    letter-spacing: 6px;
+}
